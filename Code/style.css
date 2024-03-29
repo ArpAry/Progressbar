@@ -1,0 +1,112 @@
+
+.progress-bar {
+    width: 100%;
+    background-color: #f0f0f0;
+    height: 2%;
+    margin-top: 10px;
+    border-radius: 20px;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: red;
+    width: 0%;
+    border-radius: 20px;
+  }
+  .cust_item{
+    font-size: x-large;
+    height: 31px;
+    padding: 1%;
+    margin: 1%;
+  }
+  ::placeholder {
+    font-size: 16px;
+    padding: 20px;
+  }
+  #next{
+    color: white;
+    border-radius: 25px;
+    border: none;
+    font-size: large;
+    text-align: center;
+    margin: 1%;
+    width: 9%;
+    padding: 1%;
+    background-color: red;
+    /* height: -11%; */
+  }
+  #btn{
+    display: flex;
+    justify-content: center;
+  }
+  .hidden {
+    display: none;
+  }
+  #percent{
+    text-align: center;
+  }
+  #start{
+    text-align: center;
+    font-weight: bolder;
+    color: red;
+    margin: 1%;
+    font-size: x-large;
+    font-weight: 900;
+  }
+  #blur
+  {
+    font-size: x-large;
+    font-weight: 900;
+    text-align: center;
+    color:   rgb(126, 111, 111);
+    font-weight: bolder;
+  }
+  .text{
+    font-size: x-large; 
+    font-weight: 400;
+    padding: 1%;
+    margin: auto;
+  }
+  .text-input{
+    height: 6%;
+    border: none;
+    /* border: 13px white; */
+    background-color: #e9e9e9;
+    width: 100%;
+    border-radius: 15px;
+  }
+  .shadow_part{
+    background-color: #e9e9e9;
+    width: 43%;
+    height: 10%;
+    border-radius: 15px;
+    padding: .5%;
+  }
+  .question{
+    /* display: flex; */
+  }
+  .text{
+    display: flex;
+  }
+  .radio-group{    
+    display: flex;
+    justify-content: space-around;
+    font-size: x-large;
+    color: #6b6464;
+    /* padding: auto; */
+  }
+  .radio-button{
+    /* height: 2px;
+    width: 2px; */
+    color: white;
+    size: 2%;
+    background-color: antiquewhite;
+
+  }
+  .select-box{
+    width: 100%;
+    background-color: #e9e9e9;
+    height: 6%;
+    border-radius: 15px;
+    border: none;
+  }

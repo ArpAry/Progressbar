@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script2.js"></script>
+    <script>
+        function Move()
+        { 
+            console.log( "hello ");
+            document.getElementById("percent").innerHTML = 50+"%";
+            const progressBar = document.querySelector('.progress');
+            progressBar.style.width = 50 + "%";
+        }
+    </script>
+</head>
+<body onload="Move()">
+    <div id="percent">
+        xbhgbh
+        </div>
+        <div class="progress-bar"  >
+          <div class="progress"></div>
+        </div>
+    <div id="start"> Let's Get Started ! </div>
+    
+    <div id="blur"> Add your details ( as per your registerd record ) </div>
+    <div class="question" id="question2">
+        <label for="text2" class="text">Place where  Driving License was issued:</label>
+        <div>
+        <input type="text" id="text2" class="text-input">
+    </div>
+      </div>
+      <div class="question" id="question3">
+        <label for="select1" class="text"> Issued Year of License:</label>
+        <div>
+            <select id="select1" class="select-box">
+                <option value="" class="cust_item">Select an option</option>
+                <option value="option1" class="cust_item">Option 1</option>
+                <option value="option2" class="cust_item">Option 2</option>
+              </select>
+        </div>
+      </div>
+      
+      <div class="question" id="question4">
+        <label for="select2" class="text">Type of Previous Driving License:</label>
+        <div>
+        <select id="select2" class="select-box">
+          <option value="" class="cust_item" >Select an option</option>
+          <option value="option1" class="cust_item">Option 1</option>
+          <option value="option2" class="cust_item">Option 2</option>
+        </select>
+        </div>
+      </div>
+
+</body>
+</html>

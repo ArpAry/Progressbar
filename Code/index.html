@@ -1,0 +1,72 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress Bar</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+    <script>
+    function Move()
+    { const temp = document.getElementById("percent").innerHTML;
+        if( temp == 50 )
+            {
+                window.location.href = 'index2.html';
+            } 
+        else
+            window.alert(" First Complete this Form ");
+    }
+</script>
+</head>
+<body>
+  
+        <div class="progress-bar">
+          <div class="progress"></div>
+          <div id="percent">
+            </div>
+        </div>
+    <div id="start"> Let's Get Started ! </div>
+    <div id="first">  
+    <div id="blur"> Add your details ( as per your registerd record ) </div>
+        <div id="questions">
+          <div class="question" id="question1">
+            <label class="text" for="text1">Name:</label>
+            <div>
+                <input type="text" id="text1" placeholder="Enter Place Name" class="text-input">
+            </div>
+          </div>
+          
+          <div class="question" id="question5">
+            <label class="text" >Nature of Driving License:</label>
+            <div class="radio-group">
+                <div class="shadow_part">
+              <input type="radio" id="radio1_option1" name="radio1" class="radio-button">
+              <label for="radio1_option1">Private</label>
+            </div>
+              <div class="shadow_part">
+              <input type="radio" id="radio1_option2" name="radio1"  class="radio-button">
+              <label for="radio1_option2">Commercial</label>
+            </div>
+            </div>
+          </div>
+          <div class="question" id="question6">
+            <label class="text" >Type of Previous Driving License:</label>
+            <div class="radio-group">
+              <div class="shadow_part">
+              <input type="radio" id="radio2_option1" label="Paper" name="radio2" class="radio-button">
+              <label for="radio2_option1">Paper</label>
+              </div>
+              <div class="shadow_part">
+              <input type="radio" id="radio2_option2" name="radio2" class="radio-button">
+              <label for="radio2_option2">Smart</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+    
+    </div>
+    <div id="btn">
+        <button onclick="Move()" id="next"> <   Back </button>
+    </div>
+</body>
+</html>
